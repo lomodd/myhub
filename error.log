@@ -1,0 +1,1523 @@
+[Fri Dec 06 2013 16:45:59 GMT+0800 (China Standard Time)] /chatroom
+TypeError: Cannot read property 'name' of null
+    at e:\blog\routes\index.js:257:48
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:342:9
+    at e:\blog\node_modules\connect-mongo\lib\connect-mongo.js:220:17
+[Fri Dec 06 2013 16:46:47 GMT+0800 (China Standard Time)] /chatroom
+TypeError: Cannot read property 'name' of null
+    at e:\blog\routes\index.js:258:48
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at nextRoute (e:\blog\node_modules\express\lib\router\index.js:100:7)
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:167:11)
+    at checkLogin (e:\blog\routes\index.js:438:9)
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+[Wed Dec 11 2013 13:20:53 GMT+0800 (China Standard Time)] /
+Error: Failed to lookup view "test"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:17:17
+    at e:\blog\models\user.js:72:9
+    at e:\blog\node_modules\mongodb\lib\mongodb\collection\query.js:148:5
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:35
+    at Cursor.close (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:959:5)
+    at Cursor.nextObject (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:17)
+    at commandHandler (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:713:14)
+    at e:\blog\node_modules\mongodb\lib\mongodb\db.js:1801:9
+[Wed Dec 11 2013 13:21:08 GMT+0800 (China Standard Time)] /
+Error: Failed to lookup view "test"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:17:17
+    at e:\blog\models\user.js:72:9
+    at e:\blog\node_modules\mongodb\lib\mongodb\collection\query.js:148:5
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:35
+    at Cursor.close (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:959:5)
+    at Cursor.nextObject (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:17)
+    at commandHandler (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:713:14)
+    at e:\blog\node_modules\mongodb\lib\mongodb\db.js:1801:9
+[Wed Dec 11 2013 13:22:48 GMT+0800 (China Standard Time)] /
+Error: Failed to lookup view "test"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:17:17
+    at e:\blog\models\user.js:73:9
+    at e:\blog\node_modules\mongodb\lib\mongodb\collection\query.js:148:5
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:35
+    at Cursor.close (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:959:5)
+    at Cursor.nextObject (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:17)
+    at commandHandler (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:713:14)
+    at e:\blog\node_modules\mongodb\lib\mongodb\db.js:1801:9
+[Wed Dec 11 2013 13:26:43 GMT+0800 (China Standard Time)] /
+Error: Failed to lookup view "test"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:17:17
+    at e:\blog\models\user.js:74:9
+    at e:\blog\node_modules\mongodb\lib\mongodb\collection\query.js:148:5
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:35
+    at Cursor.close (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:959:5)
+    at Cursor.nextObject (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:17)
+    at commandHandler (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:713:14)
+    at e:\blog\node_modules\mongodb\lib\mongodb\db.js:1801:9
+[Wed Dec 11 2013 13:29:16 GMT+0800 (China Standard Time)] /
+Error: Failed to lookup view "test"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:18:17
+    at e:\blog\models\user.js:74:9
+    at e:\blog\node_modules\mongodb\lib\mongodb\collection\query.js:148:5
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:35
+    at Cursor.close (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:959:5)
+    at Cursor.nextObject (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:17)
+    at commandHandler (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:713:14)
+    at e:\blog\node_modules\mongodb\lib\mongodb\db.js:1801:9
+[Wed Dec 11 2013 13:30:11 GMT+0800 (China Standard Time)] /
+Error: Failed to lookup view "test"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:18:17
+    at e:\blog\models\user.js:75:9
+    at e:\blog\node_modules\mongodb\lib\mongodb\collection\query.js:148:5
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:35
+    at Cursor.close (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:959:5)
+    at Cursor.nextObject (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:17)
+    at commandHandler (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:713:14)
+    at e:\blog\node_modules\mongodb\lib\mongodb\db.js:1801:9
+[Wed Dec 11 2013 13:33:05 GMT+0800 (China Standard Time)] /
+Error: Failed to lookup view "test"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:18:17
+    at e:\blog\models\user.js:76:9
+    at e:\blog\node_modules\mongodb\lib\mongodb\collection\query.js:148:5
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:35
+    at Cursor.close (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:959:5)
+    at Cursor.nextObject (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:17)
+    at commandHandler (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:713:14)
+    at e:\blog\node_modules\mongodb\lib\mongodb\db.js:1801:9
+[Wed Dec 11 2013 13:33:44 GMT+0800 (China Standard Time)] /
+Error: Failed to lookup view "test"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:18:17
+    at e:\blog\models\user.js:75:9
+    at e:\blog\node_modules\mongodb\lib\mongodb\collection\query.js:148:5
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:35
+    at Cursor.close (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:959:5)
+    at Cursor.nextObject (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:17)
+    at commandHandler (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:713:14)
+    at e:\blog\node_modules\mongodb\lib\mongodb\db.js:1801:9
+[Wed Dec 11 2013 13:34:11 GMT+0800 (China Standard Time)] /
+Error: Failed to lookup view "test"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:18:17
+    at e:\blog\models\user.js:76:9
+    at e:\blog\node_modules\mongodb\lib\mongodb\collection\query.js:148:5
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:35
+    at Cursor.close (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:959:5)
+    at Cursor.nextObject (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:17)
+    at commandHandler (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:713:14)
+    at e:\blog\node_modules\mongodb\lib\mongodb\db.js:1801:9
+[Wed Dec 11 2013 13:34:30 GMT+0800 (China Standard Time)] /
+Error: Failed to lookup view "test"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:18:17
+    at e:\blog\models\user.js:76:9
+    at e:\blog\node_modules\mongodb\lib\mongodb\collection\query.js:148:5
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:35
+    at Cursor.close (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:959:5)
+    at Cursor.nextObject (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:17)
+    at commandHandler (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:713:14)
+    at e:\blog\node_modules\mongodb\lib\mongodb\db.js:1801:9
+[Wed Dec 11 2013 13:35:02 GMT+0800 (China Standard Time)] /
+Error: Failed to lookup view "test"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:18:17
+    at e:\blog\models\user.js:77:9
+    at e:\blog\node_modules\mongodb\lib\mongodb\collection\query.js:148:5
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:35
+    at Cursor.close (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:959:5)
+    at Cursor.nextObject (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:17)
+    at commandHandler (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:713:14)
+    at e:\blog\node_modules\mongodb\lib\mongodb\db.js:1801:9
+[Wed Dec 11 2013 13:35:26 GMT+0800 (China Standard Time)] /
+Error: Failed to lookup view "test"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:18:17
+    at e:\blog\models\user.js:78:9
+    at e:\blog\node_modules\mongodb\lib\mongodb\collection\query.js:148:5
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:35
+    at Cursor.close (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:959:5)
+    at Cursor.nextObject (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:17)
+    at commandHandler (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:713:14)
+    at e:\blog\node_modules\mongodb\lib\mongodb\db.js:1801:9
+[Wed Dec 11 2013 13:36:16 GMT+0800 (China Standard Time)] /
+Error: Failed to lookup view "test"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:18:17
+    at e:\blog\models\user.js:78:9
+    at e:\blog\node_modules\mongodb\lib\mongodb\collection\query.js:148:5
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:35
+    at Cursor.close (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:959:5)
+    at Cursor.nextObject (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:17)
+    at commandHandler (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:713:14)
+    at e:\blog\node_modules\mongodb\lib\mongodb\db.js:1801:9
+[Wed Dec 11 2013 13:37:02 GMT+0800 (China Standard Time)] /
+Error: Failed to lookup view "test"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:18:17
+    at e:\blog\models\user.js:79:9
+    at e:\blog\node_modules\mongodb\lib\mongodb\collection\query.js:148:5
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:35
+    at Cursor.close (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:959:5)
+    at Cursor.nextObject (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:738:17)
+    at commandHandler (e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:713:14)
+    at e:\blog\node_modules\mongodb\lib\mongodb\db.js:1801:9
+[Wed Dec 11 2013 14:15:03 GMT+0800 (China Standard Time)] /
+Error: ENOENT, stat 'E:\blog\404'
+[Wed Dec 11 2013 14:16:37 GMT+0800 (China Standard Time)] /
+Error: ENOENT, stat 'E:\blog\404'
+[Wed Dec 11 2013 18:10:48 GMT+0800 (China Standard Time)] /edit/lomodd/2013-12-11/%E6%97%B6%E9%97%B4%E9%83%BD%E5%8E%BB%E5%93%AA%E5%84%BF%E4%BA%86
+TypeError: Cannot read property 'name' of undefined
+    at e:\blog\routes\index.js:356:30
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at param (e:\blog\node_modules\express\lib\router\index.js:135:11)
+    at param (e:\blog\node_modules\express\lib\router\index.js:135:11)
+    at param (e:\blog\node_modules\express\lib\router\index.js:135:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at nextRoute (e:\blog\node_modules\express\lib\router\index.js:100:7)
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:167:11)
+    at checkLogin (e:\blog\routes\index.js:432:9)
+[Wed Dec 11 2013 18:13:36 GMT+0800 (China Standard Time)] /edit/lomodd/2013-12-11/%E6%97%B6%E9%97%B4%E9%83%BD%E5%8E%BB%E5%93%AA%E5%84%BF%E4%BA%86
+TypeError: Cannot read property 'name' of undefined
+    at e:\blog\routes\index.js:356:30
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at param (e:\blog\node_modules\express\lib\router\index.js:135:11)
+    at param (e:\blog\node_modules\express\lib\router\index.js:135:11)
+    at param (e:\blog\node_modules\express\lib\router\index.js:135:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at nextRoute (e:\blog\node_modules\express\lib\router\index.js:100:7)
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:167:11)
+    at checkLogin (e:\blog\routes\index.js:432:9)
+[Wed Dec 11 2013 19:38:53 GMT+0800 (China Standard Time)] /
+SyntaxError: Unexpected token > in "e:\\blog\\views\\index.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:29:17
+    at e:\blog\models\post.js:97:21
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:162:16
+[Wed Dec 11 2013 19:39:00 GMT+0800 (China Standard Time)] /
+SyntaxError: Unexpected token > in "e:\\blog\\views\\index.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:29:17
+    at e:\blog\models\post.js:97:21
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:162:16
+[Wed Dec 11 2013 19:39:22 GMT+0800 (China Standard Time)] /
+SyntaxError: Unexpected token > in "e:\\blog\\views\\index.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:29:17
+    at e:\blog\models\post.js:97:21
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:162:16
+[Wed Dec 11 2013 19:39:44 GMT+0800 (China Standard Time)] /
+SyntaxError: Unexpected token > in "e:\\blog\\views\\index.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:29:17
+    at e:\blog\models\post.js:97:21
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:162:16
+[Wed Dec 11 2013 19:40:07 GMT+0800 (China Standard Time)] /
+SyntaxError: Unexpected token > in "e:\\blog\\views\\index.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:29:17
+    at e:\blog\models\post.js:97:21
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:162:16
+[Wed Dec 11 2013 19:40:26 GMT+0800 (China Standard Time)] /
+SyntaxError: Unexpected token > in "e:\\blog\\views\\index.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:29:17
+    at e:\blog\models\post.js:97:21
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:162:16
+[Wed Dec 11 2013 19:40:43 GMT+0800 (China Standard Time)] /
+SyntaxError: Unexpected token > in "e:\\blog\\views\\index.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:29:17
+    at e:\blog\models\post.js:97:21
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:162:16
+[Wed Dec 11 2013 19:42:21 GMT+0800 (China Standard Time)] /
+SyntaxError: Unexpected token > in "e:\\blog\\views\\index.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\index.js:29:17
+    at e:\blog\models\post.js:97:21
+    at e:\blog\node_modules\mongodb\lib\mongodb\cursor.js:162:16
+[Thu Dec 12 2013 16:21:42 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\paging.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:7:18
+[Thu Dec 12 2013 16:21:45 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\paging.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:7:18
+[Thu Dec 12 2013 16:22:08 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\paging.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:23:39 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\paging.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:23:58 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\footer.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:24:00 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\footer.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:24:00 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\footer.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:24:01 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\footer.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:24:01 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\footer.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:24:02 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\footer.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:24:03 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\footer.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:24:13 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\header.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:24:14 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\header.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:24:15 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\header.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:24:15 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\header.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:24:16 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\header.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:24:16 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\header.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:25:09 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at buf.push..
+ ceshi
+.buf (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:35)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:25:11 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at buf.push..
+ ceshi
+.buf (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:35)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:25:21 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\header.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:25:33 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\header.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:26:49 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\header.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:33:42 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\views\header.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:33:43 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\views\header.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:34:02 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:34:03 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:34:04 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:34:05 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:34:06 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:34:06 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:34:07 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:34:08 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:34:41 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:34:41 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:34:42 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:34:43 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:34:43 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:34:44 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:35:29 GMT+0800 (China Standard Time)] /jslab
+Error: ENOENT, no such file or directory 'e:\blog\views\jslab\test.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (e:\blog\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (e:\blog\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:37:31 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:37:33 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:37:58 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:38:38 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:04 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:05 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:06 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:06 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:07 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:08 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:09 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:10 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:10 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:11 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:12 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:25 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:26 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:27 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:27 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:28 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:28 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:28 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:28 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:29 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:39:29 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: e:\blog\views\jslab\index.ejs:68
+
+
+user is not defined
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:30:3306)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (e:\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:42)
+    at e:\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (e:\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (e:\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (e:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\jslab.js:8:18
+[Thu Dec 12 2013 16:41:35 GMT+0800 (China Standard Time)] /jslab
+ReferenceError: posts is not defined
+    at e:\blog\routes\jslab.js:10:25
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:335:9
+    at e:\blog\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:55:7
+[Fri Dec 13 2013 10:51:04 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:11:18
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:51:06 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:11:18
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:51:12 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:11:18
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:52:19 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:11:18
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:52:20 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:11:18
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:52:28 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:11:18
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:52:52 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:11:18
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:53:06 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:11:18
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:53:53 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:11:18
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:53:55 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:11:18
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:53:55 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:11:18
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:53:55 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:11:18
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:53:56 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:11:18
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:54:06 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:9:18
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:55:25 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:9:14
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:56:01 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:9:14
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:56:02 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:9:14
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:56:03 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:9:14
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:56:04 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:9:14
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:56:05 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:9:14
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:56:15 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:9:14
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:56:35 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:9:14
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:56:42 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:9:14
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:56:43 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:9:14
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+[Fri Dec 13 2013 10:56:43 GMT+0800 (China Standard Time)] /dictionary
+Error: Failed to lookup view "/dictny/wordsArchive"
+    at Function.app.render (e:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (e:\blog\node_modules\express\lib\response.js:798:7)
+    at e:\blog\routes\navigate.js:9:14
+    at callbacks (e:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (e:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (e:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (e:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (e:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (e:\blog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)

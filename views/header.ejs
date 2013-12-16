@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8" />
+<title><%=title%></title>
+
+<link rel="stylesheet" href="/stylesheets/core.css">
+<link rel="stylesheet" href="/stylesheets/base.css">
+<link rel="stylesheet" href="/stylesheets/style.css">
+<link rel="stylesheet" href="/javascripts/plugins/themes/pace-theme-big-counter.css">
+<link rel="stylesheet" href="/stylesheets/cssjslab.css">
+<script type="text/javascript" src="/javascripts/core.js"></script>
+<script type="text/javascript" src="/javascripts/modulus.js"></script>
+<script type="text/javascript" src="/javascripts/plugins/pace.js"></script>
+</head>
+<body>
+<div id="wrapper" class="centered">
+    <div id="header">
+       <div id="header-bg"></div>
+       <h1 id="logo" class="right20 left"><a href="/"><img src="/img/mod_logo.png" alt="Modulus" class="left" /></a></h1>
+       <div class="tagline left">
+        <h2 class="project-url"><a target="_blank" class="greenLink" href="http://blog-10173.onmodulus.net" title="blog-10173.onmodulus.net">blog-10173.onmodulus.net</a></h2>
+       </div>
+       <ul class="main-nav right">
+        <li><a href="/features">Features</a></li>
+        <li><a href="/pricing">Pricing</a></li>
+        <li><a href="/codex">Docs</a></li>
+        <li class="selected"><a href="/user/dashboard">lomodd@126.com</a></li>
+        <li class="last"><a href="/logout">Logout</a></li>
+       </ul>
+  </div>
+  <div id="content">
+    <header class="clearfix">
+        <h1 class="logo">
+          <a href="#" class="lmd-logo" target="_top" >LOMODD<%= title %></a>
+        </h1>
+        <div class="spinner"></div>
+        <div class="SHmetro">
+            <span class="line1mt">一</span>
+            <span class="line2mt">二</span>
+            <span class="line3mt">三</span>
+            <span class="line4mt">四</span>
+            <span class="line5mt">五</span>
+            <span class="line6mt">六</span>
+            <span class="line7mt">七</span>
+            <span class="line8mt">八</span>
+            <span class="line9mt">九</span>
+            <span class="line10mt">十</span>
+            <span class="line11mt">十一</span>
+            <span class="line12mt">十二</span>
+            <span class="line13mt">十三</span>
+            <span class="line14mt">十四</span>
+            <span class="line15mt">十五</span>
+            <span class="line16mt">十六</span>
+        </div>
+    </header>
+    <nav>
+         <span><form action="/search" method="GET"><input type="text" name="keyword" placeholder="SEARCH" class="search" /></form></span>
+      <ul id="side-nav">
+       <li><a title="主页" href="/" class="home current">Home</a></li>
+       <li><a title="存档" href="/archive" class="logs">archive</a></li>
+       <li><a title="标签" href="/tags" class="metrics">tags</a></li>
+       <li><a title="友情链接" href="/links" class="notifications">links</a></li>
+       <li><a title="插件" href="/plugins" class="settings">Plug-INs</a></li>
+       <li><a title="知识结构" href="/Knowledge Structure" class="settings">Knowledge Structure</a></li>
+       <li><a title="插件" href="/jslab" class="settings">js lAB</a></li>
+       <li><a title="HTMLCSS3" href="/html5css3" class="settings">HTML5&Css3</a></li>
+       <li><a title="日记" href="/diary" class="settings">Diary</a></li>
+       <li><a title="财务计划" href="/financialPlan" class="settings">financial Plan</a></li>
+       <li><a title="专业词汇" href="/dictionary" class="settings">Dictionary</a></li>
+ <% if (user) { %>
+       <li><a title="上传" href="/upload" class="home">upload</a></li>
+       <li><a title="发表" href="/post"  class="home">post</a></li>
+       <li><a title="聊天室" href="/chatroom" class="home">Chat Room</a></li>
+       <li><a title="登出" href="/logout" class="home">logout</a></li>
+    <% } else { %>
+       <li><a title="登录" href="/login"  class="home">login</a></li>
+       <li><a title="注册" href="/reg"  class="home">register</a></li>
+    <% } %>
+     </ul>
+     <div class="activity-list">
+       <h3>Activity List</h3>
+       <ol>
+        <li><span class="time">Dec 10, 2013</span><br /><span class="message"><span class="red">lomodd@126.com</span> has registered.</span></li>
+       </ol>
+     </div>
+    </nav>
+    <article>
+        <% if (success) { %>
+          <div><%= success %></div>
+        <% } %>
+        <% if (error) { %>
+          <div><%= error %> </div>
+        <% } %>

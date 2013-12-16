@@ -1,0 +1,26 @@
+<%- include header %>
+   <div class="login-page center-content black-shadow">
+    <h1>Login</h1>
+    <div id="login-form">
+     <div class="form">
+      <a href="/github/auth" class="wow github-btn">Sign In With GitHub</a>
+      <span class="or">or</span>
+      <form method="post">
+       <div id="usernameField" class="form-field">
+        <label for="login" class="hidden">User/Email:</label>
+        <input type="text" name="name" placeholder="Username/Email" />
+       </div>
+       <div id="passwordField" class="form-field">
+        <label for="password" class="hidden">Password:</label>
+        <input type="password" name="password" placeholder="Password" />
+       </div>
+       <div id="errors"></div>
+       <input type="submit" value="Log Me In" id="input-submit" class="wow" />
+      </form>
+     </div>
+     <p class="small-gray">Can't remember your password?&nbsp;<a href="/forgot" class="greenLink">Reset It!</a></p>
+    </div>
+   </div>
+  </div>
+
+<%- include footer %>

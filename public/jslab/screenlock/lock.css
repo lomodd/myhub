@@ -1,0 +1,52 @@
+  body {
+    font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    background: #252527 url(images/codepen-logo-pattern.png);
+  }
+  
+  .wrapper{
+      width:460px;
+      height:500px;
+      margin:100px auto;
+   }
+   .arealock{
+       width:460px;
+       height:450px;
+   }
+   .lockItem{
+       display:inline-block;
+       width:150px;
+       height:150px;
+       float:left;
+
+       border:#7cc1b4 1px solid;
+   }
+   
+   .slideon,.clickon{
+       background-image:url('images/icons.png');
+       background-repeat:no-repeat;
+    }
+   #switcher{
+       vertical-align: middle;
+       height:58px;
+       width:170px;
+       cursor:pointer;
+       margin:0 10px;
+   }
+   .switcher{
+       text-align: center;
+
+   }
+   .switcher span{
+       display:inline-block;
+       height:58px;
+       line-height:58px;
+       color:#fff;
+       font-size:24px;
+       font-weight:bold;
+   }
+   .slideon{
+       background-position: -91px -102px;
+   }
+   .clickon{   
+       background-position: -91px -197px;
+   }

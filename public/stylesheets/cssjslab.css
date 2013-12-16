@@ -1,0 +1,65 @@
+.spinner {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border-radius: 30px;
+  border: 2px solid #7cc1b4;
+  margin: 5px;
+  float:left;
+}
+.spinner:after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 2px;
+  background: #7cc1b4;
+  top: 14px;
+  left: 14px;
+    /*chrome opera*/  
+  -webkit-transform-origin: 1px 1px;
+  -webkit-animation: spin 1s infinite linear;
+  /*firefox*/
+   transform-origin: 1px 1px 0;
+   animation: 1s linear 0s normal none infinite spin;
+}
+.spinner:before {
+  content: "";
+  position: absolute;
+  left: 13px;
+  top: 13px;
+  height: 4px;
+  width: 4px;
+  background: #ea0437;
+  border-radius: 4px;
+      /*chrome opera*/  
+  -webkit-animation: expand 1s infinite linear alternate;
+    /*firefox*/
+  animation: 1s linear 0s alternate none infinite expand;
+}
+   /*chrome opera*/  
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes expand {
+  from {
+    -webkit-transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.5);
+  }
+}
+  /*firefox*/
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes expand {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.5); }
+}

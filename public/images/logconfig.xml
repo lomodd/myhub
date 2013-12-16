@@ -1,0 +1,39 @@
+<Settings>
+  <Value Key="EnableLog">true</Value>
+  <Value Key="Target">console</Value>
+  <Value Key="Target">file</Value>
+  <Value Key="Area">ConfigHandler</Value>
+  <Value Key="Area">WS_Cache_Handler</Value>
+  <Value Key="Area">PlayerHandler</Value>
+  <Value Key="Area">FileSystemHandler</Value>
+  <Value Key="Area">ArchiveHandler</Value>
+  <Value Key="Area">CryptoHandler</Value>
+  <Value Key="Area">PlatformHandler</Value>
+  <Value Key="Area">CNO_Player_APIs</Value>
+  <Value Key="Area">WVDRM_Imp</Value>
+  <Value Key="Area">soap_proxy</Value>
+  <Value Key="Area">soap_sent</Value>
+  <Value Key="Area">soap_recv</Value>
+  <Value Key="Area">soap_test</Value>
+  <Value Key="Area">FileDownload</Value>
+  <Value Key="Area">HttpCall</Value>
+  <Value Key="Area">UI_Trace</Value>
+  <Value Key="ConfigHandler">false</Value>
+  <Value Key="WS_Cache_Handler">false</Value>
+  <Value Key="PlayerHandler">false</Value>
+  <Value Key="FileSystemHandler">false</Value>
+  <Value Key="ArchiveHandler">false</Value>
+  <Value Key="CryptoHandler">false</Value>
+  <Value Key="PlatformHandler">false</Value>
+  <Value Key="CNO_Player_APIs">true</Value>
+  <Value Key="WVDRM_Imp">true</Value>
+  <Value Key="soap_proxy">false</Value>
+  <Value Key="soap_sent">false</Value>
+  <Value Key="soap_recv">false</Value>
+  <Value Key="soap_test">false</Value>
+  <Value Key="FileDownload">false</Value>
+  <Value Key="HttpCall">false</Value>
+  <Value Key="UI_Trace">false</Value>
+  <Value Key="SelectedTarget">console</Value>
+</Settings>
+
